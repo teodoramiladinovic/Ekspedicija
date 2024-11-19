@@ -1,0 +1,188 @@
+body
+{
+    background-color: #ac7bbd; 
+}
+
+.back-button {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Header back button hover */
+.header .back-button:hover {
+    text-decoration: underline;
+}
+
+.contact-form{
+    width: 1000px;
+    height: 520px;
+    margin: 100px auto;
+    box-shadow: rgba(60,64,67,0.3) 0px 1px 2px 0px,
+    rgba(60,64,67,0.15) 0px 1px 3px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-left, .form-right{
+    width: 50%;
+    height: 100%;
+}
+
+.form-left h3{
+    text-align: center;
+
+}
+.form-left
+{
+    background-color: rgb(230, 206, 230);
+    
+}
+.contact-icons{
+    width: 250px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.contact-icons i{
+    margin:0px 15px;
+}
+.input-fields{
+    width: 300px;
+    margin: 15px auto;
+}
+
+.input-fields input{
+    width: 280px;
+    padding: 10px;
+    border: 2px solid #123740;
+    border-radius: 10px;
+}
+
+.input-fields p{
+    margin: 0px;
+}
+
+.input-fields textarea{
+    width: 100%;
+    height: 120px;
+    border: 2px solid #123740;
+    border-radius: 25px;
+}
+
+.input-sumbit{
+    margin: auto;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color:white;
+    color: #123740;
+    border: 1px solid #123740;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.input-sumbit:hover{
+    background-color: #123740;
+    color: white;
+}
+
+.form-right{
+    background-image: url("slike/kontakt.jpg");
+    background-size: cover;
+}
+
+/* Stilizacija tabele */
+#adreseTabela table {
+    border-collapse: collapse; /* Spajanje granica ćelija */
+    width: 100%; /* Širina tabele */
+}
+
+/* Stilizacija zaglavlja tabele */
+#adreseTabela th {
+    background-color: #f2f2f2; /* Boja pozadine */
+    padding: 8px; /* Unutrašnji prostor */
+    text-align: left; /* Poravnanje teksta */
+    border: 1px solid #ddd; /* Granica */
+}
+
+/* Stilizacija ćelija tabele */
+#adreseTabela td {
+    padding: 8px; /* Unutrašnji prostor */
+    text-align: left; /* Poravnanje teksta */
+    border: 1px solid #ddd; /* Granica */
+}
+
+/* Stilizacija redova tabele */
+#adreseTabela tr:nth-child(even) {
+    background-color: #f2f2f2; /* Boja pozadine za parne redove */
+}
+/* Stilizacija dugmeta */
+button {
+    margin-left: 40%;
+    background-color: #007bff; /* Boja pozadine */
+    color: #fff; /* Boja teksta */
+    padding: 10px 20px; /* Unutrašnji prostor */
+    font-size: 16px; /* Veličina fonta */
+    border: none; /* Uklanjanje granica */
+    border-radius: 5px; /* Zaobljeni ivici */
+    cursor: pointer; /* Pokazivač kursora */
+    transition: background-color 0.3s ease; /* Tranzicija za boju pozadine */
+}
+
+/* Promena boje pozadine dugmeta prilikom prelaska mišem preko njega */
+button:hover {
+    background-color: #0056b3; /* Nova boja pozadine */
+}
+
+@media screen and (max-width: 360px) {
+    .contact-form {
+        width: 100%; /* Kontakt forma zauzima celu širinu ekrana */
+        height: auto; /* Automatska visina */
+        flex-direction: column; /* Prikaz elemenata jedan ispod drugog */
+        box-shadow: none; /* Uklanjanje senke za minimalistički dizajn */
+        margin: 55px 0px;
+    }
+
+    .form-left {
+        width: 107%; /* Leva strana zauzima celu širinu */
+        padding: 10px; /* Dodavanje unutrašnjeg prostora */
+    }
+
+    .form-left h3 {
+        font-size: 20px; /* Manji naslov za bolje uklapanje */
+    }
+
+    .contact-icons {
+        font-size: 20px; /* Manje ikonice za bolju preglednost */
+        padding: 10px;
+        width: auto; /* Automatska širina */
+    }
+
+    .contact-icons i {
+        margin: 0 10px; /* Smanjen razmak između ikonica */
+    }
+
+    .input-fields {
+        width: 80%; /* Polja za unos zauzimaju celu širinu */
+    }
+
+    .input-fields input,
+    .input-fields textarea {
+        width: 100%; /* Polja za unos rastežu se celom širinom */
+        font-size: 14px; /* Smanjena veličina teksta */
+        padding: 8px; /* Manji unutrašnji prostor */
+    }
+
+    .input-sumbit {
+        width: 35%; /* Dugme rasteže se celom širinom */
+        font-size: 16px; /* Manja veličina teksta */
+        padding: 10px; /* Unutrašnji prostor */
+    }
+}
+

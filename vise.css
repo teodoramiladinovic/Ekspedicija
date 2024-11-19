@@ -1,0 +1,133 @@
+/* Opšte postavke */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+.header {
+    background-color: #759f7e;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+}
+
+.header .back-button {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Header back button hover */
+.header .back-button:hover {
+    text-decoration: underline;
+}
+
+/* Sadržaj */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 300px;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.text {
+    max-width: 800px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #759f7e;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .kontakt {
+    background-color: #FCBE11;
+    padding: 5px 10px;
+    font-size: 15px;
+    color: black;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.footer .kontakt:hover {
+    background-color: #9cdfaa;
+    padding: 15px 20px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 360px) {
+    .header {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 24px; /* Smanjen font za manje ekrane */
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .image-container {
+        flex-direction: column; /* Slike jedna ispod druge */
+        align-items: center; /* Centrirane slike */
+    }
+
+    .image-container img {
+        width: 100%; /* Slike zauzimaju celu širinu */
+        height: auto; /* Zadržava proporcije */
+        margin: 10px 0;
+    }
+
+    .text h2 {
+        font-size: 22px; /* Manji naslov za bolje uklapanje */
+    }
+
+    .text p {
+        font-size: 16px; /* Manji tekst */
+    }
+
+    .footer {
+        padding: 10px;
+    }
+
+    .footer .kontakt {
+        font-size: 14px; /* Smanjen font za manje ekrane */
+    }
+}
+
