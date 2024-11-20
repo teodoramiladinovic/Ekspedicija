@@ -9,7 +9,6 @@ body
     font-size: 18px;
 }
 
-/* Header back button hover */
 .header .back-button:hover {
     text-decoration: underline;
 }
@@ -31,7 +30,7 @@ body
     height: 100%;
 }
 
-.form-left h3{
+.form-left {
     text-align: center;
 
 }
@@ -64,9 +63,7 @@ body
     border-radius: 10px;
 }
 
-.input-fields p{
-    margin: 0px;
-}
+
 
 .input-fields textarea{
     width: 100%;
@@ -97,92 +94,65 @@ body
     background-size: cover;
 }
 
-/* Stilizacija tabele */
-#adreseTabela table {
-    border-collapse: collapse; /* Spajanje granica ćelija */
-    width: 100%; /* Širina tabele */
-}
-
-/* Stilizacija zaglavlja tabele */
-#adreseTabela th {
-    background-color: #f2f2f2; /* Boja pozadine */
-    padding: 8px; /* Unutrašnji prostor */
-    text-align: left; /* Poravnanje teksta */
-    border: 1px solid #ddd; /* Granica */
-}
-
-/* Stilizacija ćelija tabele */
-#adreseTabela td {
-    padding: 8px; /* Unutrašnji prostor */
-    text-align: left; /* Poravnanje teksta */
-    border: 1px solid #ddd; /* Granica */
-}
-
-/* Stilizacija redova tabele */
-#adreseTabela tr:nth-child(even) {
-    background-color: #f2f2f2; /* Boja pozadine za parne redove */
-}
-/* Stilizacija dugmeta */
 button {
     margin-left: 40%;
-    background-color: #007bff; /* Boja pozadine */
-    color: #fff; /* Boja teksta */
-    padding: 10px 20px; /* Unutrašnji prostor */
-    font-size: 16px; /* Veličina fonta */
-    border: none; /* Uklanjanje granica */
-    border-radius: 5px; /* Zaobljeni ivici */
-    cursor: pointer; /* Pokazivač kursora */
-    transition: background-color 0.3s ease; /* Tranzicija za boju pozadine */
+    background-color: #007bff; 
+    color: #fff;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
 }
 
-/* Promena boje pozadine dugmeta prilikom prelaska mišem preko njega */
 button:hover {
-    background-color: #0056b3; /* Nova boja pozadine */
+    background-color: #0056b3; 
 }
 
 @media screen and (max-width: 360px) {
     .contact-form {
-        width: 100%; /* Kontakt forma zauzima celu širinu ekrana */
-        height: auto; /* Automatska visina */
-        flex-direction: column; /* Prikaz elemenata jedan ispod drugog */
-        box-shadow: none; /* Uklanjanje senke za minimalistički dizajn */
+        width: 100%; 
+        height: auto; 
+        flex-direction: column; 
+        box-shadow: none; 
         margin: 55px 0px;
     }
 
     .form-left {
-        width: 107%; /* Leva strana zauzima celu širinu */
-        padding: 10px; /* Dodavanje unutrašnjeg prostora */
+        width: 107%; 
+        padding: 10px; 
     }
 
-    .form-left h3 {
-        font-size: 20px; /* Manji naslov za bolje uklapanje */
+    .form-left  {
+        font-size: 20px; 
     }
 
     .contact-icons {
-        font-size: 20px; /* Manje ikonice za bolju preglednost */
+        font-size: 20px; 
         padding: 10px;
-        width: auto; /* Automatska širina */
+        width: auto; 
     }
 
     .contact-icons i {
-        margin: 0 10px; /* Smanjen razmak između ikonica */
+        margin: 0 10px; 
     }
 
     .input-fields {
-        width: 80%; /* Polja za unos zauzimaju celu širinu */
+        width: 80%; 
     }
 
     .input-fields input,
     .input-fields textarea {
-        width: 100%; /* Polja za unos rastežu se celom širinom */
-        font-size: 14px; /* Smanjena veličina teksta */
-        padding: 8px; /* Manji unutrašnji prostor */
+        width: 100%; 
+        font-size: 14px; 
+        padding: 8px; 
     }
 
     .input-sumbit {
-        width: 35%; /* Dugme rasteže se celom širinom */
-        font-size: 16px; /* Manja veličina teksta */
-        padding: 10px; /* Unutrašnji prostor */
+        width: 35%; 
+        font-size: 16px;
+        padding: 10px; 
     }
 }
 
