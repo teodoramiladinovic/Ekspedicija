@@ -42,10 +42,9 @@ body, html {
     align-items: center;
     justify-content: center;
 }
-#ponuda h4{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 0px;
-    margin-top: 0px;
+#ponuda {
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    
     font-family: "MuseoModerno", sans-serif;
     font-size: 30px;
     text-align: center;
@@ -67,7 +66,7 @@ body, html {
     border-top-left-radius: 25px;
 }
 
-.card h1{
+.card {
     text-align: center;
     color:black;
 }
@@ -130,9 +129,7 @@ body, html {
     height: 650px;
 }
 
-/* #opisSpanija {
-   margin-left: 20px;
-} */
+
 
 #Spanija button
 {
@@ -158,9 +155,7 @@ body, html {
     height: 700px;
 }
 
-/* #opisIt {
-    margin-left: 20px; 
-} */
+
 #Francuska{
     background-color: #759f7e;
     display: flex; 
@@ -179,7 +174,7 @@ body, html {
         width: 690px;
          }
 
-        .tekst h1 {
+        .tekst  {
         font-size: 1.5rem; 
         }
 
@@ -189,16 +184,16 @@ body, html {
 
          #ponuda {
             display: flex;
-            flex-direction: column; /* Postavlja elemente u kolonu */
-            align-items: center; /* Poravnava elemente po sredini */
-            gap: 15px; /* Razmak između elemenata */
+            flex-direction: column; 
+            align-items: center; 
+            gap: 15px; 
             margin-top: 685px;
             margin-left: 350px;
            
             
         }
     
-        #ponuda h4 {
+        #ponuda  {
         font-size: 30px;
         position: absolute;
         right: 30px;
@@ -207,13 +202,13 @@ body, html {
      }
     
         .card {
-            width: 300px; /* Karte zauzimaju punu širinu */
-            text-align: center; /* Centriranje sadržaja unutar karte */
+            width: 300px; 
+            text-align: center; 
         }
     
         .card img {
-            width: 100%; /* Slike će zauzeti punu širinu karte */
-            height: 300px; /* Zadržava proporcije slike */
+            width: 100%;
+            height: 300px; 
         }
 
         
