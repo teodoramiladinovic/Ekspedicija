@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://teodoramiladinovic.github.io/Ekspedicija/sitemap.xml
